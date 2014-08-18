@@ -2,7 +2,7 @@ var Grid = require('gridfs-stream');
 var mongo = require('mongodb');
 var express = require('express');
 
-var db = new mongo.Db('cnjsdemo', new mongo.Server("127.0.0.1", 27017));
+var db = new mongo.Db('cnjsdemo', new mongo.Server("127.0.0.1", 27017),{auto_reconnect:true});
 db.open(function(err, db) {
 	console.log('db connected');
 	db.authenticate('demo', 'demo', function(){
