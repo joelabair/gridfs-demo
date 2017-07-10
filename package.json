@@ -1,17 +1,17 @@
 {
   "name": "gridfs-demo",
   "version": "0.0.0",
-  "description": "demo grodfs & express",
-  "scripts": {
-    "start": "node gridfs-express.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Joel A. Bair <joel.a.bair@gmail.com>",
   "private": true,
-  "license": "ISC",
+  "scripts": {
+    "start": "node ./bin/www"
+  },
   "dependencies": {
-    "express": "^4.8.4",
-    "gridfs-stream": "^0.5.1",
-    "mongodb": "^1.4.8"
+    "body-parser": "~1.17.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "express": "~4.15.2",
+    "jade": "~1.11.0",
+    "morgan": "~1.8.1",
+    "serve-favicon": "~2.4.2"
   }
 }
