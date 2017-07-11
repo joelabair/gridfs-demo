@@ -9,4 +9,4 @@ npm install
 
 npm start
 
-Then point you browse to 127.0.0.1:3000/
+Then point you browser to 127.0.0.1:3000/
